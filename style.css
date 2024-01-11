@@ -1,3 +1,16 @@
 .carousel{
-    width: 938px;
+    display: grid;
+    grid-row: row;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+.carousel a{
+    font-size: 50px;
+    text-decoration: none;
+    
 }
